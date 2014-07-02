@@ -14,7 +14,6 @@ class BaseController extends Controller
     protected function setupLayout()
     {
         $this->layout = (object) array();
-        // $this->layout->title = '';
     }
 
 
